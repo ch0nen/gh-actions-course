@@ -16,7 +16,7 @@ In this course, you will learn how to:
 ## Repository Structure
 
 The repository is structured to follow the course modules and lessons:
-
+```
 .
 ├── .github
 │ └── workflows
@@ -34,7 +34,7 @@ The repository is structured to follow the course modules and lessons:
 ├── .gitignore
 ├── README.md
 └── ...
-
+```
 
 - `.github/workflows`: Contains all the GitHub Actions workflow files.
 - `src`: Source code examples used in the course.
