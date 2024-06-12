@@ -4,7 +4,11 @@ on:
   push:
     paths:
       - '.github/workflows/02-workflow-events.yaml'
-
+  pull_request:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    
 jobs: 
   echo:
     runs-on: ubuntu-latest
