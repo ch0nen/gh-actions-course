@@ -1,0 +1,169 @@
+# Ignore MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ignore node_modules (you can uncomment if using node.js)
+# node_modules/
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore build directories
+dist/
+build/
+out/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore env files
+.env
+.env.*
+!.env.example
+
+# Ignore local environment settings
+.vscode/
+.vscode-test/
+
+# Ignore GitHub Actions files
+.github/workflows/node_modules/
+.github/workflows/dist/
+.github/actions/node_modules/
+.github/actions/dist/
+
+# Ignore VSCode settings
+.vscode/
+.vscode/*
+
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore other common files
+*.swp
+*~
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+
+# Ignore backup files
+*.bak
+*.tmp
+*.old
+*.orig
+*.backup
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore test reports
+junit-report.xml
+test-results/
+test-output/
+
+# Ignore distribution and packaging files
+.PyBuilder/
+*.egg-info/
+.installed.cfg
+*.egg
+*.wheel
+pip-wheel-metadata/
+
+# Ignore Sphinx documentation
+docs/_build/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pyenv
+.python-version
+
+# Ignore celery beat schedule files
+celerybeat-schedule
+
+# Ignore SageMath notebook files
+.sage.py
+
+# Ignore dotenv
+.env.local
+.env.*.local
+.envrc
+*.env
+
+# Ignore coverage tool output
+.tox
+.coverage
+.cache
+.nox
+
+# Ignore compiled Cython files
+*.pyx.c
+*.pyx.so
+*.pxd.c
+*.pxd.so
+*.c
+
+# Ignore virtual environment directory
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore localization files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore custom environments
+# You can add more if you use other environments/tools
