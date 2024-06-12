@@ -1,17 +1,17 @@
 name: 02 - Workflow events
 
 on: 
-  push:
-    branches:
-      - "[main]"
-    paths:
-      - '.github/workflows/02-workflow-events.yaml'
-  
-  pull_request:
-
-  schedule:
-    - cron: "*/5 * * * *"
-  
+#  push:
+#    branches:
+#      - "[main]"
+#    paths:
+#      - '.github/workflows/02-workflow-events.yaml'
+#  
+#  pull_request:
+#
+#  schedule:
+#    - cron: "*/5 * * * *"
+#  
   workflow_dispatch:
     
 jobs: 
