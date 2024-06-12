@@ -70,6 +70,3 @@ To follow along with this course, you will need:
 
 ## Instructor
 - This course is taught by Lauro Fialho Müller. For any questions or support, please refer to the course Q&A section on Udemy.
-
-## License
-This repository is licensed under the MIT License. See the LICENSE file for more information.
